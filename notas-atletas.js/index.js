@@ -33,7 +33,7 @@ for (let i = 0; i < atletas.length; i++) {
 
     // 7. Utilizando console.log() para exibir os resultados
     console.log(`Atleta: ${nomeAtleta}`);
-    console.log(`Notas Obtidas: ${atletas[i].notas.join(", ")}.`);
+    console.log(`Notas Obtidas: ${notas.join(", ")}.`);
     console.log(`Média Válida: ${media.toFixed(2)}`);
     console.log(""); // Linha em branco para separar os resultados
 }
